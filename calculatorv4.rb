@@ -68,6 +68,7 @@ class Calculator
   end
 
   def evaluate_using_updated_operator (str3)
+    str3 = str3.delete("?")
     print str3 + ' = '
     #evaluating the string str3
     puts eval(str3)
